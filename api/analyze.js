@@ -60,7 +60,7 @@ Tono: clinico, calido, formativo. Espanol rioplatense. Sin JSON. Solo el texto c
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-sonnet-4-6',
         max_tokens: 2000,
         system: SYSTEM,
         messages: [{ role: 'user', content: `Caso clinico:\n\n${caseText}` }]
